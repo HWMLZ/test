@@ -9,7 +9,7 @@ public class HomeController {
 
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public String Home(){
-
+        System.out.println("打印");
         return "/home";
     }
 }
